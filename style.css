@@ -1,3 +1,14 @@
+html{
+    background: linear-gradient(#fafa06, #d41662);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    background-repeat: no-repeat;
+}
+
+
 button{
-    font-size: 20px;
+    font-size: 40px;
+    box-shadow: 0 10px 10px 0px;
+    margin: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }

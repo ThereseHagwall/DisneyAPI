@@ -1,5 +1,6 @@
 const body = document.querySelector("body") as HTMLBodyElement;
 const container = document.createElement("div");
+container.className = "container";
 const nxtButton = document.createElement("button");
 body.append(container);
 container.append(nxtButton);
@@ -22,9 +23,9 @@ async function jokesData() {
             joke.innerHTML = data.setup;
             delivery.innerHTML = data.delivery;
         }
-}
-printInfo();
-
+    }
+    printInfo();
+    
 };
 
 jokesData();
